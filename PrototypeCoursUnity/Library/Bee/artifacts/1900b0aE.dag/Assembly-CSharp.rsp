@@ -373,6 +373,7 @@
 "Assets/Script/IA/NoiseStatus.cs"
 "Assets/Script/MAP/MovingWallController.cs"
 "Assets/Script/menu.cs"
+"Assets/Script/menuInGame.cs"
 "Assets/Script/PLAYER/Gun.cs"
 "Assets/Script/PLAYER/PlayerController.cs"
 "Assets/Script/ROBOT/GunRobot.cs"
