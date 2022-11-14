@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638038446418953872
-    m_Hash: 579292787
+      ticks: 638040171744916899
+    m_Hash: 3921942857
   m_LockFileStatus:
     m_FilePath: C:/Users/Lisa/Desktop/JeuxLancerObjets/PrototypeCoursUnity/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638038446542663373
-    m_Hash: 3689056653
+      ticks: 638040171764914328
+    m_Hash: 356137474
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -617,6 +617,90 @@ m_ResolvedPackages:
     path: 
   unityLifecycle:
     version: 1.2.5
+    nextVersion: 
+- packageId: com.unity.package-manager-ui@2.2.0
+  testable: 0
+  isDirectDependency: 1
+  version: 2.2.0
+  source: 2
+  resolvedPath: C:\Users\Lisa\Desktop\JeuxLancerObjets\PrototypeCoursUnity\Library\PackageCache\com.unity.package-manager-ui@2.2.0
+  assetPath: Packages/com.unity.package-manager-ui
+  name: com.unity.package-manager-ui
+  displayName: Package Manager UI
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: shim
+  description: 'Use the Unity Package Manager user interface to manage a Project''s
+    packages and discover new packages.
+
+
+    For more information, click the ''View
+    documentation'' link above. '
+  status: 4
+  errors: []
+  versions:
+    all:
+    - 0.0.1
+    - 0.0.2
+    - 0.0.3
+    - 0.0.4
+    - 1.2.0
+    - 1.3.0
+    - 1.5.1
+    - 1.6.1
+    - 1.7.0
+    - 1.7.2
+    - 1.8.0
+    - 1.8.1
+    - 1.8.2
+    - 1.8.7
+    - 1.8.8
+    - 1.9.8
+    - 1.9.9
+    - 1.9.10
+    - 1.9.11
+    - 2.0.0-preview.2
+    - 2.0.0-preview.3
+    - 2.0.0-preview.4
+    - 2.0.0-preview.5
+    - 2.0.0-preview.6
+    - 2.0.0-preview.7
+    - 2.0.1
+    - 2.0.2
+    - 2.0.3
+    - 2.0.7
+    - 2.0.8
+    - 2.0.12
+    - 2.0.13
+    - 2.1.0-preview.1
+    - 2.2.0
+    compatible: []
+    verified: 
+  dependencies: []
+  resolvedDependencies: []
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+  hideInEditor: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
     nextVersion: 
 - packageId: com.unity.postprocessing@2.2.2
   testable: 0
