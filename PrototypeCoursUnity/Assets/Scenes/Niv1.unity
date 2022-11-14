@@ -9424,6 +9424,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1733803558}
     m_Modifications:
+    - target: {fileID: 226758694, guid: 26fa12f7c012ea543a02d6fbe3fcbdfa, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 226758696, guid: 26fa12f7c012ea543a02d6fbe3fcbdfa, type: 3}
       propertyPath: spotAngle
       value: 18.67
