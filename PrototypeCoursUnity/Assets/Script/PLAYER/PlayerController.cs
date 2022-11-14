@@ -17,7 +17,7 @@ public class PlayerController : MonoBehaviour
     Rigidbody rb;
 
     [SerializeField]
-    float walkSpeed = 2f, runSpeed = 8f,  sensitivity = 3f;
+    float walkSpeed = 2f, runSpeed = 8f, crouchSpeed = 2f , sensitivity = 3f;
 
     //Rotation de la caméra
     float rotationX = 0;
@@ -34,6 +34,7 @@ public class PlayerController : MonoBehaviour
         rb = GetComponent<Rigidbody>();
         animator = GetComponent<Animator>();
         Cursor.visible = false;  //curseur invisible
+        jump = false;
     }
 
     // Update is called once per frame
@@ -51,11 +52,17 @@ public class PlayerController : MonoBehaviour
                 transform.Translate(Vector3.forward * runSpeed * axisV * Time.deltaTime);
                 GetComponent<NoiseStatus>().NoiseLevel = 2;
             }
-            else
+            else if(!crouch)
             {
                 animator.SetInteger("moving", 1);
                 transform.Translate(Vector3.forward * walkSpeed * axisV * Time.deltaTime);
                 GetComponent<NoiseStatus>().NoiseLevel = 1;
+            }
+            else
+            {
+                animator.SetInteger("moving", 1);
+                transform.Translate(Vector3.forward * crouchSpeed * axisV * Time.deltaTime);
+                GetComponent<NoiseStatus>().NoiseLevel = 0;
             }
         }
         else if(axisV <= 0 && !crouch)
@@ -67,7 +74,7 @@ public class PlayerController : MonoBehaviour
         if(axisV == 0)
         {
             animator.SetInteger("moving", 0);
-            jump = true;
+           
 
         }
         if (axisH != 0 && !crouch)

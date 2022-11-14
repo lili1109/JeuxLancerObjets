@@ -8,7 +8,10 @@ public class endGame : MonoBehaviour
     {
         if(collision.collider.tag == "Player")
         {
-            Debug.Log("Fin");
+#if UNITY_EDITOR
+            UnityEditor.EditorApplication.isPlaying = false;
+#endif
+            Application.Quit();
         }
     }
 }

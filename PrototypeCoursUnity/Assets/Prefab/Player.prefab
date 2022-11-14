@@ -193,6 +193,7 @@ MonoBehaviour:
   mainCamera: {fileID: 0}
   walkSpeed: 2
   runSpeed: 8
+  crouchSpeed: 2
   sensitivity: 3
   rotationSpeed: 2
   rotationXLimit: 45
@@ -381,75 +382,6 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6691558230440123665}
   m_Enabled: 1
---- !u!1001 &6949644239826368140
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 7321050155333534550}
-    m_Modifications:
-    - target: {fileID: 6910462523306815457, guid: 435f3f124f9bfb7459ebe0f5a7be69c2, type: 3}
-      propertyPath: m_RootOrder
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 6910462523306815457, guid: 435f3f124f9bfb7459ebe0f5a7be69c2, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.003
-      objectReference: {fileID: 0}
-    - target: {fileID: 6910462523306815457, guid: 435f3f124f9bfb7459ebe0f5a7be69c2, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.003
-      objectReference: {fileID: 0}
-    - target: {fileID: 6910462523306815457, guid: 435f3f124f9bfb7459ebe0f5a7be69c2, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.003
-      objectReference: {fileID: 0}
-    - target: {fileID: 6910462523306815457, guid: 435f3f124f9bfb7459ebe0f5a7be69c2, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6910462523306815457, guid: 435f3f124f9bfb7459ebe0f5a7be69c2, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.0048
-      objectReference: {fileID: 0}
-    - target: {fileID: 6910462523306815457, guid: 435f3f124f9bfb7459ebe0f5a7be69c2, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0.002
-      objectReference: {fileID: 0}
-    - target: {fileID: 6910462523306815457, guid: 435f3f124f9bfb7459ebe0f5a7be69c2, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6910462523306815457, guid: 435f3f124f9bfb7459ebe0f5a7be69c2, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6910462523306815457, guid: 435f3f124f9bfb7459ebe0f5a7be69c2, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6910462523306815457, guid: 435f3f124f9bfb7459ebe0f5a7be69c2, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6910462523306815457, guid: 435f3f124f9bfb7459ebe0f5a7be69c2, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6910462523306815457, guid: 435f3f124f9bfb7459ebe0f5a7be69c2, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6910462523306815457, guid: 435f3f124f9bfb7459ebe0f5a7be69c2, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8138051074412315528, guid: 435f3f124f9bfb7459ebe0f5a7be69c2, type: 3}
-      propertyPath: m_Name
-      value: PlayerBall
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 435f3f124f9bfb7459ebe0f5a7be69c2, type: 3}
 --- !u!1001 &8417653505341759450
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -510,11 +442,6 @@ PrefabInstance:
     - {fileID: 4757836856755875626, guid: bd6ee82c5e06b3f4f86113cbf8261ae1, type: 3}
     - {fileID: 4757836856755875627, guid: bd6ee82c5e06b3f4f86113cbf8261ae1, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: bd6ee82c5e06b3f4f86113cbf8261ae1, type: 3}
---- !u!4 &7321050155333534550 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1245275053966154892, guid: bd6ee82c5e06b3f4f86113cbf8261ae1, type: 3}
-  m_PrefabInstance: {fileID: 8417653505341759450}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &8335051186556601397 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 539745478100655087, guid: bd6ee82c5e06b3f4f86113cbf8261ae1, type: 3}

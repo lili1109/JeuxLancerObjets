@@ -10087,6 +10087,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6691558230363035067, guid: 8e4767d0dda26ac428fd4299e4668ae5, type: 3}
+      propertyPath: runSpeed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6691558230363035067, guid: 8e4767d0dda26ac428fd4299e4668ae5, type: 3}
+      propertyPath: crouchSpeed
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6691558230363035068, guid: 8e4767d0dda26ac428fd4299e4668ae5, type: 3}
       propertyPath: m_Constraints
       value: 112
@@ -10409,6 +10417,10 @@ PrefabInstance:
     - target: {fileID: 1663696182227174238, guid: 8ca35a5ad6264444ca2f348c3ed9cffd, type: 3}
       propertyPath: m_BackGroundColor.r
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1663696182227174238, guid: 8ca35a5ad6264444ca2f348c3ed9cffd, type: 3}
+      propertyPath: m_CullingMask.m_Bits
+      value: 4294967038
       objectReference: {fileID: 0}
     - target: {fileID: 5527873776044169755, guid: 8ca35a5ad6264444ca2f348c3ed9cffd, type: 3}
       propertyPath: m_Mesh

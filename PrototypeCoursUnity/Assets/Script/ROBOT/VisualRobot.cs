@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 public class VisualRobot : Robot
 {
     public string actualScene;
+    public float timeDetection = 0.7f;
     private void Start()
     {
         actualScene = SceneManager.GetActiveScene().name;
@@ -38,7 +39,7 @@ public class VisualRobot : Robot
 
     IEnumerator seeing()
     {
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(timeDetection);
         SceneManager.LoadScene(actualScene);
     }
 }
