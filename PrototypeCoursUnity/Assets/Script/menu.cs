@@ -7,10 +7,13 @@ public class menu : MonoBehaviour
 {
     public string nameSceneToPlay;
     public GameObject wdMenu;
+    public GameObject press;
+    
 
     private void Start()
     {
         wdMenu.SetActive(false);
+        press.SetActive(true);
     }
 
     private void Update()
@@ -18,6 +21,7 @@ public class menu : MonoBehaviour
         if (Input.GetButtonDown("Jump"))
         {
             wdMenu.SetActive(true);
+            press.SetActive(false);
         }
     }
     public void Play()
@@ -35,5 +39,7 @@ public class menu : MonoBehaviour
     public void QuitMenu()
     {
         wdMenu.SetActive(false);
+        press.SetActive(true);
+
     }
 }
